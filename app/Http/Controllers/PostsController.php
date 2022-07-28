@@ -48,7 +48,7 @@ class PostsController extends Controller
             'body' => $request->body,
         ]);
 
-        return redirect()->route('posts.index')->with('success_message', 'Post was created!');
+        return redirect()->route('posts.index')->with('success_message', __('postsMessages.created'));
     }
 
     /**

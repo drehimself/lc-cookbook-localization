@@ -17,7 +17,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/dashboard';
+    public const HOME = '/en/dashboard';
 
     /**
      * Define your route model bindings, pattern filters, and other route configuration.
@@ -33,7 +33,10 @@ class RouteServiceProvider extends ServiceProvider
                 ->prefix('api')
                 ->group(base_path('routes/api.php'));
 
+            $locale = request()->segment(1);
+
             Route::middleware('web')
+                ->prefix($locale)
                 ->group(base_path('routes/web.php'));
         });
     }

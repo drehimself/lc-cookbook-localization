@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'welcome' => 'YOU ARE LOGGED IN!!',
+    'welcome' => 'YOU ARE LOGGED IN!',
 ];

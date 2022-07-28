@@ -1,0 +1,17 @@
+{
+    "HEY YOU ARE LOGGED IN!": "frHEY YOU ARE LOGGED IN!",
+    "Log in": "frLog in",
+    "Email": "frEmail",
+    "Password": "frPassword",
+    "Register": "frRegister",
+    "Dashboard": "frDashboard",
+    "Posts": "frPosts",
+    "Log Out": "frLog Out",
+    "Create Post": "frCreate Post",
+    "Title": "frTitle",
+    "Body": "frBody",
+    "You are logged in!": "frYou are logged in!",
+    "Post was created!": "frPost was created!",
+    "Documentation": "frDocumentation",
+    "Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.": "frLaravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end."
+}
